@@ -10,10 +10,10 @@ namespace exercis4
     {
         public int info;
         public node next;
-        public node(int i, node n)
+        public node(int d, node c)
         {
-            info = i;
-            next = n;
+            info = d;
+            next = c;
         }
     }
 
