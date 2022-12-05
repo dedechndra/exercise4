@@ -97,7 +97,7 @@ namespace exercis4
                     }
                     s.pop();
                     break;
-                case '3';
+                case '3':
                     s.display();
                 case '4':
                     return;
