@@ -16,4 +16,20 @@ namespace exercis4
             next = n;
         }
     }
-}
+
+    class stack
+    {
+        node top;
+        public stack()
+        {
+            top = null;
+        }
+        bool empty()
+        {
+            if (top == null)
+                return (true);
+            else
+                return (false);
+        }
+
+    }
